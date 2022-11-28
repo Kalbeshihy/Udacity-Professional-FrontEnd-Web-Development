@@ -1,0 +1,135 @@
+/* Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(/assets/Background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+/* End Global Rules */
+
+#app {
+  height: 100vh;
+  color: #d5d5d5;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+}
+.headline {
+  background-color: #d5d5d5;
+  color: #0a1d3e;
+  padding: 10px;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+#zip,
+#feelings,
+#generate {
+  display: block;
+  background: #d5d5d5;
+  margin: 0 auto;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  color: #0a1d3e;
+  font-size: 15px;
+  resize: none;
+}
+
+#feelings {
+  padding: 5px;
+  margin-top: 0;
+}
+
+#generate {
+  width: 20%;
+  margin-top: 15px;
+  background: #d5d5d5;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 2px 4px 5px #444;
+}
+#generate:hover {
+  border: 1px solid #0a1d3e;
+  box-shadow: none;
+}
+label {
+  display: block;
+  font-size: 27px;
+  text-align: center;
+  margin: 10px auto;
+}
+.entry {
+  width: 50%;
+  background: rgba(59, 74, 107, 0.4);
+  margin: 50px auto;
+  border-radius: 20px;
+  height: 200px;
+  transition: all 2s ease-in-out;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a1d3e;
+}
+#entryHolder {
+  display: grid;
+  grid-template-rows: 60%;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  font-size: 1.5vw;
+}
+#content {
+  grid-column: 1 / -1;
+}
+#temp {
+  font-size: 3vw;
+}
+span {
+  font-weight: bold;
+  color: #ffdf80;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(0, 0, 0, 0.5);
+}

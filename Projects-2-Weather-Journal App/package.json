@@ -1,0 +1,13 @@
+{
+  "Name": "Weather Journal App",
+  "version": "1.0",
+  "description": "Project 2 - For Udacity Professional Front-End Web Development Nanodegree Program",
+  "main": "server.js",
+  "author": "Khaled Mahmoud",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
