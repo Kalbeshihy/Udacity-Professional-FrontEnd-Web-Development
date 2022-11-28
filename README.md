@@ -10,11 +10,11 @@ ___
 # Udacity *NanoDegree* Projects.
 
 ## Professional Front-End Web Development Nanodegree Program
-1. Project **1** - [landing-Page](https://github.com/Kalbeshihy/Fwd_Udacity/tree/main/Projects/1_landingPage)
+1. Project **1** - [landing-Page](https://github.com/Kalbeshihy/Udacity-Professional-FrontEnd-Web-Development/tree/main/Projects-1-landingPage)
     - in this Project i *converted* a static **HTML page** to an interactive page with **Javascript**.
     - Project [Starter Code](https://github.com/udacity/fend/tree/refresh-2019/projects/landing-page)
 ***
-2. Project **2** - [Weather-Journal-App](https://github.com/Kalbeshihy/Fwd_Udacity/tree/main/Projects/1_landingPage)
+2. Project **2** - [Weather-Journal-App](https://github.com/Kalbeshihy/Udacity-Professional-FrontEnd-Web-Development/tree/main/Projects-2-Weather-Journal%20App)
     - This project requires you to **create an asynchronous** web app that uses **Web API** and user data to *dynamically update the UI*.
     - Project [Starter Code](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app)
 ***
